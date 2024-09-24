@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after,
+body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading__dot {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    background-color: red;
+    display: inline-block;
+    margin: 0.5rem;
+    animation: loading 6s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-color: #ffb300;
+        height: 2rem;
+    }
+    20% {
+        height: 10rem;
+    }
+    40% {
+        height: 2rem;
+    }
+    50% {
+        background-color: #d81b60;
+        height: 2rem;
+    }
+}
