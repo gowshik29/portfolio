@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const typingElement = document.querySelector(".typedText");
   if (typingElement) {
       new Typed(".typedText", {
-          strings: ["Student at SRM", "Developer"],
+          strings: ["Student at SRM"],
           loop: true,
           typeSpeed: 100,
           backSpeed: 80,
